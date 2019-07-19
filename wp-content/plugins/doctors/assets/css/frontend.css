@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
+.appointment-page{
+	font-family: 'Open Sans', sans-serif;
+}
+.doctor-col {
+    padding: 7px 25px 20px 25px;
+    border-radius: 6px;
+    margin-top: 10px;
+}
+.appointment-time {
+    padding: 0px;
+}
+.card-head {
+    padding: 15px 15px 10px 15px;
+    margin: auto;
+    text-align: center;
+}
+.card-head img {
+    width: 80px;
+	height: 80px;
+    margin: auto;
+    border: 3px solid #ffffff;
+    box-shadow: 0px 0px 7px #797575;
+}
+.appointment-time li {
+    list-style: none;
+    text-align: center;
+    margin-bottom: 2px;
+    font-size: 16px;
+    padding: 5px 0px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.appointment-time li.clinic-085e44a4-0a52-45c7-bee6-28ce61a3c42a {
+    background-color: #9dcd90;
+}
+.appointment-time li.clinic-53CF3389-6555-43D2-9D17-9890841F5BCA {
+    background-color: #b73737;
+}
+.date_of_app p {
+    font-weight: 700;
+    font-size: 17px;
+}
+.date_of_app {
+    text-align: center;
+}
+.applist-container {
+    padding: 0px 40px;
+}
+.card-head h4 {
+    color: #60ab4c;
+    font-size: 20px;
+    min-height: 75px;
+    margin: 16px;
+}
+.app-title {
+    font-size: 16px;
+    color: #9e9c9c;
+    display: block;
+}
+.display_doctor_name, .display_clinic_name, .display_datetime {
+    font-size: 18px;
+    color: #9e9c9c;
+}
+.display_datetime {
+	margin-bottom: 10px;
+}
+#booking_form .form-control {
+    font-family: 'Open Sans', sans-serif !important;
+    box-shadow: 0px 0px 4px #585454 !important;
+    border: 0px !important;
+    border-radius: 2px !important;
+	height: 42px !important;
+}
+.inline-title {
+     font-size: 16px;
+    color: #9e9c9c;
+}
+#avoid_spam {
+    width: 170px;
+    display: inline-table;
+    margin: 0px 10px;
+}
+.inline-title span {
+    color: #560c2f;
+    font-size: 14px;
+    background-color: #ecddc1;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.btn-custom {
+    background-color: #f0981f !important;
+    border-radius: 0px !important;
+    padding: 9px 30px 13px !important;
+    font-weight: lighter !important;
+    font-size: 19px !important;
+    margin-top: 10px;
+}
+.btn-cancel {
+    border-radius: 0px !important;
+    padding: 8px 30px 11px !important;
+    font-weight: lighter !important;
+    font-size: 19px !important;
+    margin-top: 10px;
+    background-color: #fff !important;
+    border: 1px solid #ccc !important;
+    color: #333 !important;
+}
+.appointment_btn {
+    padding: 6px 0px 7px 0px!important;
+    background-color: transparent !important;
+    margin: 0px !important;
+    vertical-align: middle !important;
+    width: 100% !important;
+}
+label.error {
+    font-size: 11px;
+    color: red;
+    font-weight: normal;
+}
+.color-one:before {
+    background-color: #b73737;
+    content: "";
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    border-radius: 22px;
+	margin-top: 8px;
+}
+.color-two:before {
+    background-color: #9dcd90;
+    content: "";
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    border-radius: 22px;  
+	margin-top: 8px;
+}
+.card-loc h5 {
+    padding: 0px;
+    margin: 12px 0px;
+}
+.card-loc {
+    background-color: #ddd;
+    padding: 4px 20px 10px;
+    margin-bottom: 10px;
+}
+.card-loc p {
+    margin: 4px 26px;
+    padding: 0px;
+    font-size: 15px;
+}
+
+.radio-block .radio-inline small {
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    vertical-align: text-bottom;
+    color: #9e9c9c;
+    font-weight: 600;
+}
+.radio-block .radio-inline input {
+    margin-top: 16px;
+}
+.radio-block {
+    text-align: center;
+}
+-------------------------------------------
+/* CSS FOR APPOINTMENT PAGE */
+.appointment-page .datepicker_doctor .ui-datepicker-inline, .datepicker_doctor .ui-datepicker {
+    width: 100% !important;
+}
+
+.appointment-page .datepicker_doctor .ui-state-default {
+    font-size: 13px;
+}
+.appointment-page .datepicker_doctor .ui-datepicker-calendar thead th {
+    padding: 0px;
+}
+.appointment-page .datepicker_doctor .ui-datepicker-calendar thead th span {
+    font-size: 16px;
+}
+.appointment-page .ui-datepicker-header {
+    padding: 0px !important;
+}
+.appointment-page .datepicker_doctor .ui-datepicker-header .ui-datepicker-month, .appointment-page .ui-datepicker-header .ui-datepicker-year {
+    font-size: 17px;
+}
+.appointment-page .datepicker_doctor .ui-datepicker-title {
+    margin: 0 !important;
+}
+#booking_form .form-control.error, #booking_form textarea.error {
+    border: 1px solid red !important;
+}
+label#dob-error {
+    display: block;
+}
+.appointment-time li:hover {
+    background-color: #fff;
+}
+.appointment-time li:hover input {
+    color: #000;
+}
