@@ -60,8 +60,8 @@
     display: block;
 }
 .display_doctor_name, .display_clinic_name, .display_datetime {
-    font-size: 18px;
-    color: #9e9c9c;
+    font-size: 21px;
+    color: #fff; 
 }
 .display_datetime {
 	margin-bottom: 10px;
@@ -166,7 +166,7 @@ label.error {
 .radio-block {
     text-align: center;
 }
--------------------------------------------
+
 /* CSS FOR APPOINTMENT PAGE */
 .appointment-page .datepicker_doctor .ui-datepicker-inline, .datepicker_doctor .ui-datepicker {
     width: 100% !important;
@@ -197,8 +197,17 @@ label#dob-error {
     display: block;
 }
 .appointment-time li:hover {
-    background-color: #fff;
+    background-color: #ddd;
 }
 .appointment-time li:hover input {
     color: #000;
+}
+.appointed_doc {
+    background-color: #60ab4c;
+    padding: 12px 0px 5px 22px;
+    letter-spacing: 0.3px;
+    border-radius: 5px;
+}
+.appointed_doc strong {
+    color: #ffffff;
 }

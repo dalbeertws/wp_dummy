@@ -213,16 +213,18 @@ echo '
 					<input type="hidden" name="app_date" id="app_date" value=""/>
 					<input type="hidden" name="app_time" id="app_time" value=""/>
 					<input type="hidden" name="clinic_name" id="clinic_name" value=""/>
-							<div class="row">
-								<div class="col-sm-12 display_doctor_name"></div>
-							</div>
-							<div class="row">
-								<div class="col-sm-12 display_clinic_name"></div>
-							</div>
-							<div class="row">
-								<div class="col-sm-12 display_datetime"></div>
-							</div>
 							
+							<div class="appointed_doc">
+								<div class="row">
+									<div class="col-sm-12 display_doctor_name"></div>
+								</div>
+								<div class="row">
+									<div class="col-sm-12 display_clinic_name"></div>
+								</div>
+								<div class="row">
+									<div class="col-sm-12 display_datetime"></div>
+								</div>
+							</div>
 							<p class="app-title">To complete your reservation please provide the following information:</p>
 							
 							<div class="row">
@@ -297,14 +299,7 @@ echo '
 								</div>
 							</div>
 							
-							<div class="row">
-								<div class="col-md-8">
-									<!--<span class="inline-title">Answer <span id="captchaOperation"></span></span>
-									<input type="number" name="avoid_spam" id="avoid_spam" class="form-control">-->
-									<div class="g-recaptcha" data-sitekey="6Lf34KgUAAAAAGsgN9n9hiIAOD12NENJvseRkbA6" data-callback="recaptchaCallback"></div>
-									<input type="hidden" class="hiddenRecaptcha required" name="hiddenRecaptcha" id="hiddenRecaptcha">
-								</div>
-							</div>
+							
 							<p class="app-title"><strong>Mandatory:</strong> The reasons for the visit in detail:</p>
 							<div class="row">
 							
@@ -314,6 +309,14 @@ echo '
 									</div>
 								</div>
 								
+							</div>
+							<div class="row">
+								<div class="col-md-8">
+									<!--<span class="inline-title">Answer <span id="captchaOperation"></span></span>
+									<input type="number" name="avoid_spam" id="avoid_spam" class="form-control">-->
+									<div class="g-recaptcha" data-sitekey="6Lf34KgUAAAAAGsgN9n9hiIAOD12NENJvseRkbA6" data-callback="recaptchaCallback"></div>
+									<input type="hidden" class="hiddenRecaptcha required" name="hiddenRecaptcha" id="hiddenRecaptcha">
+								</div>
 							</div>
 							<input type="submit" value="Submit" class="btn btn-info btn-custom" name="submit"> &nbsp; 
 							<input type="button" class="btn btn-default btn-cancel" onclick="cancel_appointment()" value="Cancel">
